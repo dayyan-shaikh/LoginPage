@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>LOGIN</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -16,18 +16,18 @@
     </div>
 
     <div class="wrapper">
-      <form action="action">
+      <form action="backend.php" method="post">
         <h1>Login</h1>
         <div class="input-box">
-          <input type="text" placeholder="UserName" required />
+          <input name="name" type="text" placeholder="UserName"  />
           <i class="bx bxs-user-pin"></i>
         </div>
         <div class="input-box">
-          <input type="email" placeholder="Email" required />
+          <input name="email" type="email" placeholder="Email" required />
           <i class="bx bxs-envelope"></i>
         </div>
         <div class="input-box">
-          <input type="password" placeholder="Password" required />
+          <input name="passwd" type="password" placeholder="Password" required />
           <i class="bx bxs-lock-alt"></i>
         </div>
         <div class="remember-forgot">
@@ -35,7 +35,7 @@
           <a href="#">Forgot password?</a>
         </div>
 
-        <button class="btn" type="button">Login</button>
+        <button class="btn" type="submit">Login</button>
 
         <div class="register-link">
           <p>Don't have an account? <a href="#">register</a></p>
