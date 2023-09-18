@@ -61,7 +61,7 @@ header{
 .navigation a:hover{
     color:black;
     background: #fff;
-    border-radius:2px;
+    border-radius:10px;
 }
 
 body{
