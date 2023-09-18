@@ -1,0 +1,65 @@
+body{
+    background-image: url('../image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Center the background image vertically and horizontally */
+    background-position: center center;
+    /* Set a fixed height for the background image */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+
+    /* Make content more readable with background overlay */
+    .overlay {
+    /* background-color: rgba(0, 0, 0, 0.5); Adjust the opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    
+    /* Responsive styling */
+    @media (max-width: 600px) {
+        .container {
+            width: 80%;
+        }
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    }
+
+/* Navbar */
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding:20px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.3rem;
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.navigation a:hover{
+    color:black;
+    background: #fff;
+    border-radius:10px;
+}
