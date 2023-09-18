@@ -11,14 +11,7 @@ body{
     padding: 0;
     font-family: Arial, sans-serif;
     }
-    
-    /* Add content on top of the background image */
-    /* .content {
-    text-align: center;
-    padding: 100px;
-    color: white;
-    } */
-    
+
     /* Make content more readable with background overlay */
     .overlay {
     /* background-color: rgba(0, 0, 0, 0.5); Adjust the opacity as needed */
@@ -42,6 +35,34 @@ body{
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
     }
+
+/* Navbar */
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding:20px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.3rem;
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.navigation a:hover{
+    color:black;
+    background: #fff;
+    border-radius:2px;
+}
 
 body{
     display: flex;

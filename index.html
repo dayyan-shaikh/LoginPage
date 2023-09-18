@@ -11,15 +11,25 @@
     />
   </head>
   <body>
+
+    <header>
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+
+      </nav>
+    </header>
+
+
     <div class="background-container">
       <!-- Content goes here -->
     </div>
-
     <div class="wrapper">
       <form action="backend.php" method="post">
         <h1>Login</h1>
         <div class="input-box">
-          <input name="name" type="text" placeholder="UserName"  />
+          <input name="name" type="text" placeholder="UserName" />
           <i class="bx bxs-user-pin"></i>
         </div>
         <div class="input-box">
@@ -27,7 +37,12 @@
           <i class="bx bxs-envelope"></i>
         </div>
         <div class="input-box">
-          <input name="passwd" type="password" placeholder="Password" required />
+          <input
+            name="passwd"
+            type="password"
+            placeholder="Password"
+            required
+          />
           <i class="bx bxs-lock-alt"></i>
         </div>
         <div class="remember-forgot">
