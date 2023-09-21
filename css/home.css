@@ -27,6 +27,9 @@ body {
   .container {
     width: 80%;
   }
+  .carousel-inner{
+    height: 100vh;
+  }
 }
 
 * {
